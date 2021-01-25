@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+  .section-fs {
+    min-height: inherit;
+  }
+  .section-fs > .container, .section-fs > .container > .row {
+    min-height: inherit;
+  }
+  .hr-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+	.img-25 {
+		width: 25%;
+	}
+	.img-50 {
+		width: 50%;
+	}
+}

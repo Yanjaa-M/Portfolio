@@ -1,123 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I'm Yanjaa</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div></div>
-            <div></div>
-            <div></div>
-        </nav>
-    </header>
-    
-    <section id="home">
-        <article>
-            <img src="./assets/Hero_Profile Image.png" height="107px" width="107px">
-            <h1>I'm Yanjaa</h2>
-            <div class="desc">
-                <p>I am a creative designer with eight years of experience creating top-notch, elegant pixel-perfect designs for organizations ranging from agencies, startups, corporates, Govt. and NGOs.</p>
-            </div>
-            <button class="button primary">About me</button>
-            <a href="#turntips"><div class="scroll-down"></div></a>
-        </article>
+<div id="wrapper">
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+      <li> <a href="#">Work</a> </li>
+      <li> <a href="#">About Me</a> </li>
+      <li> <a href="#">Contact</a> </li>
+    </ul>
+  </nav>
+  <div class="overlay"></div>
+  <div id="page-content-wrapper">
+    <button type="button" class="hamburger is-closed" data-toggle="offcanvas"> <span class="hamb-top"></span> <span class="hamb-middle"></span> <span class="hamb-bottom"></span> </button>
+    <section class="section-fs section-fs-1"> <img alt="" src="images/dots.png"  srcset="images/dots.png 1x, images/dots@2x.png 2x" class="dots-top-left d-none d-lg-block" /> <img alt="" src="images/dots.png"  srcset="images/dots.png 1x, images/dots@2x.png 2x" class="dots-bottom-right d-none d-lg-block" />
+      <div class="container py-3 py-md-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 text-center"> <img src="images/profile.png"  srcset="images/profile.png 1x, images/profile@2x.png 2x" class="mb-2" alt="">
+            <h1 class="mb-4">I'm Yanjaa</h1>
+            <p class="mb-4">I am a creative designer with eight years of experience creating <br class="d-none d-md-block">
+              top-notch, elegant pixel-perfect designs for organizations ranging <br class="d-none d-md-block">
+              from agencies, startups, corporates, Govt. and NGOs.</p>
+            <a href="#" class="btn btn-danger mb-5">About Me</a>
+            <div class="clearfix"></div>
+            <a href="#" class="scroll-down-arrow animated bounce"><i class="fas fa-arrow-down"></i></a> </div>
+        </div>
+      </div>
     </section>
-    <section id="turntips">
-        <article>
-            <div class="container">
-                <div class="heading">
-                    <h2>Turntips</h2>
-                </div>
-                <div class="text">
-                    <div class="summary">
-                        Eat healthy, live healthy
-                    </div>
-                    <div class="divider black"></div>
-                    <p class="description">
-                        TurnTips is a application designed to help people in our local community understand the benefits of eating healthy.
-                    </p>
-                    <button class="button primary">Take a look</button>
-                </div>
-            </div>
-            
-        </article>
-        <aside>
-            <div class="turntips menu"></div>
-            <div class="turntips phone"></div>
-            <div class="turntips video"></div>
-            <div class="turntips doctor"></div>
-        </aside>
+    <section class="section-fs section-fs-2">
+      <div class="container py-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 text-center text-md-start order-1 order-md-0 mt-3 mt-md-0">
+            <h2 class="mb-2">Turntips</h2>
+            <p class="mb-4">Eat healthy, live healthy</p>
+            <div class="hr-line mb-5"></div>
+            <p class="mb-4">TurnTips is a application designed to help <br class="d-none d-md-block">
+              people in our local community understand the <br class="d-none d-md-block">
+              benefits of eating healthy.</p>
+            <a href="#" class="btn btn-danger">Take a look</a> </div>
+          <div class="col-md-6 mt-3 mt-md-0 text-center order-0 order-md-1"><img src="images/fs-2-img.png" class="img-fluid img-50" alt="" /></div>
+        </div>
+      </div>
     </section>
-    <section id="byob">
-        <aside>
-            <div class="byob read-text text">Read</div>
-            <div class="byob support-text text">Get support</div>
-            <div class="byob learn-text text">Learn</div>
-            <div class="byob inspired-text text">Get inspired</div>
-            <div class="byob read"></div>
-            <div class="byob boss"></div>
-            <div class="byob support"></div>
-            <div class="byob learn"></div>
-            <div class="byob inspired"></div>
-        </aside>
-        <article>
-            <div class="container">
-                <div class="heading">
-                    <h2>B.Y.O.B</h2>
-                </div>
-                <div class="text">
-                    <div class="summary">
-                        Be Your Own Boss
-                    </div>
-                    <div class="divider white"></div>
-                    <p class="description">
-                        B.Y.O.B is a mobile application to provides resources and networking opportunities for women to achieve their own successful business & be an active part of a business community of other women.
-                    </p>
-                    <button class="button secondary">Take a look</button>
-                </div>
-            </div>
-        </article>
+    <section class="section-fs section-fs-3"> <img alt="" src="images/dots.png"  srcset="images/dots.png 1x, images/dots@2x.png 2x" class="dots-top-left d-none d-lg-block" /> <img alt="" src="images/dots.png"  srcset="images/dots.png 1x, images/dots@2x.png 2x" class="dots-bottom-right d-none d-lg-block" />
+      <div class="container py-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 text-center"><img src="images/fs-3-img.png" class="img-fluid img-50" alt="" /></div>
+          <div class="col-md-6">
+            <div class="mx-md-5 text-center text-md-start">
+              <h2 class="mb-2">B.Y.O.B</h2>
+              <p class="mb-4">Be Your Own Boss</p>
+              <div class="hr-line mb-5"></div>
+              <p class="mb-4">B.Y.O.B is a mobile application to provides resources and <br class="d-none d-md-block">
+                networking opportunities for women to achieve their own <br class="d-none d-md-block">
+                successful business &amp; be an active part of a business <br class="d-none d-md-block">
+                community of other women.</p>
+              <a href="#" class="btn btn-dark">Take a look</a> </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="usda">
-        <article>
-            <div class="container">
-                <div class="heading">
-                    <h2>USDA</h2>
-                </div>
-                <div class="text">
-                    <div class="summary">
-                        U.S Department of Agriculture
-                    </div>
-                    <div class="divider white"></div>
-                    <p class="description">
-                        B.Y.O.B is a mobile application to provides resources and networking opportunities for women to achieve their own successful business & be an active part of a business community of other women.
-                    </p>
-                    <button class="button secondary">Take a look</button>
-                </div>
-            </div>
-        </article>
-        <aside>
-            <div class="usda phone"></div>
-            <div class="usda monitor"></div>
-        </aside>
+    <section class="section-fs section-fs-4">
+      <div class="container py-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5 text-center text-md-start order-1 order-md-0">
+            <h2 class="mb-2">USDA</h2>
+            <p class="mb-4">U.S Department of Agriculture</p>
+            <div class="hr-line mb-5"></div>
+            <p class="mb-4">B.Y.O.B is a mobile application to provides resources and <br class="d-none d-md-block">
+              networking opportunities for women to achieve their own <br class="d-none d-md-block">
+              successful business &amp; be an active part of a business <br class="d-none d-md-block">
+              community of other women.</p>
+            <a href="#" class="btn btn-dark">Take a look</a> </div>
+          <div class="col-md-7 mt-3 mt-md-0 text-center order-0 order-md-1 mb-0 mb-md-0" ><img src="images/fs-4-img.png" class="img-fluid img-50" alt="" /></div>
+        </div>
+      </div>
     </section>
-    <section id="talk">
-        <aside>
-            <div class="talk"></div>
-        </aside>
-        <article>
-            <div class="container">
-                <div class="heading">
-                    <div class="large-text">I am currently available for freelance UX UI design projects and I’d love to bring your ideas to life!</div>
-                </div>
-                <button class="button secondary">Let's talk</button>
-            </div>
-            
-        </article>
+    <section class="section-fs section-fs-5">
+      <div class="container py-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5 text-center"><img src="images/fs-5-img.png" class="img-fluid img-25" alt="" /></div>
+          <div class="col-md-7 mt-3 mt-md-0">
+            <div class="mx-md-5 text-center text-md-start">
+              <h2 class="mb-4">I am currently available for <br class="d-none d-md-block">
+                freelance UX UI design projects <br class="d-none d-md-block">
+                and I’d love to bring your <br class="d-none d-md-block">
+                ideas to life!</h2>
+              <a href="#" class="btn btn-dark">Let's talk</a> </div>
+          </div>
+        </div>
+      </div>
     </section>
+  </div>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/scripts.js"></script>
 </body>
 </html>
